@@ -1,7 +1,7 @@
 package LinearSearch;
 
 public class NumberWithEvenDigits {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] nums = {555,901,482,1771};
 
         System.out.println(findNumbers(nums));

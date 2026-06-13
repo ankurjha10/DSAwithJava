@@ -1,7 +1,7 @@
 package LinearSearch;
 
 public class FindMax {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {119, 37, 118, 78, 446, 68, 21};
         System.out.println(MAX(arr));
     }

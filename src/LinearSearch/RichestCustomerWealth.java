@@ -1,7 +1,7 @@
 package LinearSearch;
 
 public class RichestCustomerWealth {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[][] accounts = {
                 {1, 2, 3},
                 {3, 2, 1}
