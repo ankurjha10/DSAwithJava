@@ -1,10 +1,10 @@
-package Sorting.BubbleSort;
+package Sorting;
 
 import java.util.Arrays;
 
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] arr = {9, 8, 7, 6, 5, 4, 3, 2, 1};
+        int[] arr = {2, 0, 2, 1, 1, 0};
         bubbleSort(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -25,9 +25,10 @@ public class BubbleSort {
                 }
             }
 
-            //if you did not swapped it means the array is already sorted
+            //if you did not swap it means the array is already sorted
             if(!swapped)
                 break;
         }
     }
 }
+
