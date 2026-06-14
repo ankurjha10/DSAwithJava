@@ -1,12 +1,12 @@
 package LinearSearch;
 
 public class FindMin {
-    static void main(String[] args) {
+    public static void main(String[] args) {
         int[] arr = {119, 37, 118, 78, 46, 68, 21};
         System.out.println(MIN(arr));
     }
 
-    static int MIN(int[] arr){
+    private static int MIN(int[] arr){
         if (arr.length == 0)
             return -1;
 
